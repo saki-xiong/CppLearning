@@ -1,0 +1,14 @@
+﻿生成启动时间为 2015/11/26 11:52:39。
+     1>项目“E:\CPP\class template ex1\class template ex1\class template ex1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\class template ex1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt demo.cpp MyArray.cpp
+         MyArray.cpp
+     1>e:\cpp\class template ex1\class template ex1\myarray.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         demo.cpp
+     1>e:\cpp\class template ex1\class template ex1\demo.cpp(17): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“E:\CPP\class template ex1\class template ex1\class template ex1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.58
