@@ -23,11 +23,16 @@ class Solution2{
 public:
 	ListNode* reverseList(ListNode* head){
 		
-		if (head == NULL || head->next == NULL) return head;
+		if (head == NULL || head->next == NULL) 
+		{
+			cout << "beforereverse:  " << head->val << endl;
+				return head;
+			}
+		cout << "out beforereverse:  " << head->val << endl;
 		ListNode *newhead = reverseList(head->next);
 		head->next->next = head;
 		head->next = NULL;
-		//cout << "reverse" << endl;
+		cout << "afterreverse  " <<"newhead: "<< newhead->val<<"  "<<"head: "<<head->val<< endl;
 		return newhead;
 		
 	}
